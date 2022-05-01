@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.obsqura.main.base.Listeners"/>              
+</listeners>
+
+<test thread-count="5" name="Test1">
+<parameter name="browser" value="chrome" />
+
+<classes>
+
+<class name="com.qa.testcases.ManageExpenseTestCase">
+
+
+     <methods>
+        <include name="manageExpenseTc10" />
+        <include name="manageExpenseTc11" />
+        <exclude name="addEmployeeTestCase" />
+      </methods></class>
+
+</classes>
+</test> 
+</suite>    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

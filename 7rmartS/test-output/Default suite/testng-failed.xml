@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.ManageTestCases">
+        <methods>
+          <include name="pushNotificationTc22"/>
+          <include name="ManageDeleveryBoyTc30"/>
+          <include name="manageCategoryTc25"/>
+          <include name="offerCodeTc27"/>
+          <include name="verifyUsersTc20"/>
+          <include name="verifyUsersTc21"/>
+          <include name="logout"/>
+          <include name="manageCategoryTc26"/>
+          <include name="manageSliderTc24"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="login"/>
+          <include name="managePaymentMethodTc29"/>
+          <include name="cashOnDelevaryTc28"/>
+          <include name="manageLocationTc23"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ManageTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
